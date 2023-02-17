@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g++ ./main/hello.cpp'
+        sh 'g+=================+ ./main/hello.cpp'
         echo 'Build Stage Successful'
       }
     }
